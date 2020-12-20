@@ -1,0 +1,301 @@
+.w {
+    margin: 0 auto;
+}
+/* nav界面 */
+.box {
+    height: 50px;
+    background-color: white;
+}
+
+.box .nav {
+    width: 870px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.box .nav img:first-child {
+    cursor: pointer;
+}
+
+.box .nav ul {
+    float: right;
+    padding-top: 5px;
+    padding-right: 62px;
+}
+
+.box .nav ul li {
+    float: left;
+    width: 55px;
+    height: 25px;
+}
+
+.box .nav ul li:first-child {
+    margin-right: 120px;
+}
+
+.box .nav ul li:last-child {
+    border-bottom: 2px solid tomato;
+}
+
+.box .nav ul li a {
+    font-size: 15px;
+}
+
+.box .nav ul li:hover {
+    color:tomato;
+    border-bottom: 2px solid tomato;
+}
+
+.box .nav ul li a img {
+    margin-right: 3px;
+    vertical-align: bottom;
+}
+
+/* banner部分 */
+.banner {
+    position: relative;
+    height: 1015px;
+    background-attachment: fixed;
+}
+
+.banner .tab {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -125px;
+    margin-top: -25px;
+    width: 250px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+.banner .tab span {
+    display: inline-block;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    padding-top: 9px;
+    font-size: 23px;
+    color: white;
+    cursor: pointer;
+}
+
+.banner .tab p {
+    font-size: 15px;
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* 模块部分 */
+.mokuai {
+    position: relative;
+    width: 988px;
+    height: 265px;
+    margin-top: 150px;
+}
+
+.mokuai .info {
+    position: relative;
+    width: 553px;
+    height: 264px;
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+}
+
+.mokuai .info:hover {
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.15);
+}
+
+
+.mokuai .info .user {
+    position: absolute;
+    width: 155px;
+    height: 155px;
+    top: 55px;
+    left: 65px;
+    background-color: teal;
+    border: 3px solid #b5b5b5;
+    border-radius: 77px;
+}
+
+.info ul {
+    position: absolute;
+    top: 70px;
+    right: 120px;
+}
+
+.info ul li h3 {
+    display: block;
+    color: #484848;
+    font-size: 36px;
+}
+
+
+.info ul li:nth-child(2) {
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+.info ul li:nth-child(3) {
+    font-size: 18px;
+}
+
+
+.mokuai .music {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 376px;
+    height: 264px;
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+}
+
+.mokuai .music:hover {
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.15);
+}
+
+.music .musicbox {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    width: 130px;
+    height: 130px;
+    color: black;
+    font-size: 25px;
+    border: 3px solid #555555;
+    border-radius: 78px;
+}
+
+.music .musicbox img {
+    height: 80px;
+    padding: 26px 26px;
+    cursor: pointer;
+}
+
+.music .musicbox h4 {
+    font-weight: 400;
+    padding-top: 5px;
+    padding-left: 28px;
+}
+
+.blog {
+    position: relative;
+    width: 988px;
+    margin: 0 auto;
+}
+
+.blog ul li {
+    position: relative;
+    width: 988px;
+    height: 380px;
+    background-color: #fff;
+    margin-top: 143px;
+    border-radius: 30px;
+    transition: all 1s;
+}
+.blog>ul>li>div {
+    position: absolute;
+    top: 57px;
+    left: 52px;
+    width: 355px;
+    height: 260px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.blog ul li .artical {
+    position: absolute;
+    width: 440px;
+    height: 260px;
+    margin-left: 400px;
+    border-radius: 0;
+}
+
+.blog ul li .artical h4 {
+    font-size: 34px;
+    color: tomato;
+}
+
+.blog ul li .artical p:first-of-type {
+    margin: 17px 0px;
+    font-size: 15px;
+    color: #8b8b8b;
+
+}
+
+.blog ul li .artical p:last-of-type {
+    font-size: 16px;
+    color: #393939;
+}
+
+.artical a {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 15px;
+    color: #393939;
+    transition: color 0.7s;
+}
+
+.artical a:hover {
+    color: tomato;
+}
+
+.blog ul li:hover {
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.15);
+}
+
+/* 尾部导航 */
+.footer {
+    width: 440px;
+    margin: 90px auto;
+    padding-left: 38px;
+}
+
+.footer a{
+    display: inline-block;
+    width: 62px;
+    height: 62px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 62px;
+    margin-right: 38px ;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    transition: all 0.2s;
+}
+
+.footer a:hover {
+    color: white;
+    background-color: tomato;
+}
+
+.footer a:first-child{
+    background-color: tomato;
+    color: white;
+}
+
+/* 侧边导航 */
+
+.sidenav{
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+}
+
+
+.sidenav a img {
+    padding: 14px;
+    padding-top: 17px;
+}
