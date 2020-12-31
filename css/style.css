@@ -68,7 +68,7 @@
     border-radius: 25px;
 }
 
-.banner .tab span {
+.banner .tab span a {
     display: inline-block;
     width: 250px;
     height: 25px;
@@ -82,7 +82,7 @@
 .banner .tab p {
     font-size: 15px;
     color: white;
-    margin-top: 25px;
+    margin-top: 0px;
     text-align: center;
 }
 

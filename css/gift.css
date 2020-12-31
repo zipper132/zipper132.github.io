@@ -1,0 +1,80 @@
+.w {
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* nav界面 */
+.box {
+    height: 50px;
+    background-color: white;
+}
+
+.box .nav {
+    width: 870px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.box .nav img:first-child {
+    cursor: pointer;
+}
+
+.box .nav ul {
+    float: right;
+    padding-top: 5px;
+    padding-right: 62px;
+}
+
+.box .nav ul li {
+    float: left;
+    width: 55px;
+    height: 25px;
+}
+
+.box .nav ul li:first-child{
+    margin-right: 120px;
+    border-bottom: 2px solid tomato;
+}
+
+.box .nav ul li a {
+    font-size: 15px;
+}
+
+.box .nav ul li:hover {
+    color:tomato;
+    border-bottom: 2px solid tomato;
+}
+
+.box .nav ul li a img {
+    margin-right: 3px;
+    vertical-align: bottom;
+}
+
+.title {
+    width: 1280px;
+    height: 50px;
+    font-size: 30px;
+    color: tomato;
+    margin: 50px auto;
+    border: 1px solid tomato;
+    text-align: center;
+    line-height: 50px;
+}
+
+.video-btd {
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+}
